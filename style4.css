@@ -1,0 +1,81 @@
+.Resume-container{
+    display: flex;
+    flex-direction: row;
+    
+  }
+   .sidebar{
+    background-color: rgba(3, 19, 73, 0.918);
+    color: azure;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 600px;
+   }
+   .sidebar img {
+      width: 120px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 4px;
+   }
+   .sidebar p{
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-bottom: 2px;
+   }
+
+   .h2{
+      margin-bottom: 5px;
+      
+   }
+   .sidebar p{
+      font-size: 16px;
+      margin-bottom: 20px;
+   }
+   .media h2 {
+      padding: 10px;
+      border-bottom: 2px white;
+      margin-bottom: 15px;
+      text-align: center;
+      align-items: center;
+   }
+
+   .media ul{
+      list-style: none;
+   }
+   .job, .project, .education, .experience{
+      padding:15px;
+      background-color: rgba(133, 219, 245, 0.778);
+      margin-bottom: 10px;
+      border-left: 5px solid rgb(5, 5, 125);
+      border-radius: 10px;
+
+   }
+
+   .content{
+      flex-grow: 1;
+      padding: 40px;
+      background-color: white;
+      box-shadow: -10px 0px 10px rgba(222, 218, 218, 0.929);
+      overflow-y: auto;
+   }
+   
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .media li{
+      padding: 5px;
+      background-color: rgb(3, 19, 73,0.918);
+    }
+    .media main h2 {
+      padding: 10px;
+      border-bottom: 2px solid white;
+      margin-bottom: 20px;
+      text-align: center;
+      align-items: center;
+    }
